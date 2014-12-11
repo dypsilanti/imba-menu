@@ -2,32 +2,35 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
+.context-course_{
+	&270280,
+	&304999 {
 
-.prof {
-	background-image: url("../_img/prof_img/placeholder.png");
-	width: 200px;
-	height: 200px;
-	border-radius: 100%;
-	border: 5px solid whitesmoke;
-	background-repeat: no-repeat;
-	box-shadow: 0px 1px 1px rgba(48,48,48,1);
-	background-size: cover;
-	position: absolute;}	
-
-.m0 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-// } end .context-course_...		
+		.prof {
+			background-image: url("course-style/bul5810/dimatteo.png");
+			width: 200px;
+			height: 200px;
+			border-radius: 100%;
+			border: 5px solid whitesmoke;
+			background-repeat: no-repeat;
+			box-shadow: 0px 1px 1px rgba(48,48,48,1);
+			background-size: cover;
+			position: absolute;}	
+		
+		.m0 {
+			background-image: url("course-style/bul5810/0-start.png"); 
+			@include grow-style;}
+		.m1 {
+			background-image: url("course-style/bul5810/1-intro.png"); 
+			@include grow-style;}
+		.m2 {
+			background-image: url("course-style/bul5810/2-contracts.png"); 
+			@include grow-style;}
+		.m3 {
+			background-image: url("course-style/bul5810/3-agency.png"); 
+			@include grow-style;}
+		.m4 {
+			background-image: url("course-style/bul5810/4-business.png"); 
+			@include grow-style;}
+	}		
+} // end .context-course_...		
