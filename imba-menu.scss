@@ -1,33 +1,47 @@
 @mixin grow-style{
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
-
-.prof {
-	background-image: url("../_img/prof_img/placeholder.png");
-	width: 200px;
-	height: 200px;
-	border-radius: 100%;
-	border: 5px solid whitesmoke;
-	background-repeat: no-repeat;
-	box-shadow: 0px 1px 1px rgba(48,48,48,1);
-	background-size: cover;
-	position: absolute;}	
-
-.m0 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-.m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
-	@include grow-style;}
-// } end .context-course_...		
+.context-course_{
+	&313874{
+		.prof {
+			background-image: url("course-style/qmb5303/pathak.png");}
+		.m0 {
+			background-image: url("course-style/qmb5303/00-start.png");
+			@include grow-style;}
+		.m3 {
+			background-image: url("course-style/qmb5303/03-histograms.png"); 
+			@include grow-style;}
+		.m4 {
+			background-image: url("course-style/qmb5303/04-landmark.png"); 
+			@include grow-style;}
+		.m5 {
+			background-image: url("course-style/qmb5303/05-variability.png"); 
+			@include grow-style;}
+		.m7 {
+			background-image: url("course-style/qmb5303/07-variables.png"); 
+			@include grow-style;}
+		.m8 {
+			background-image: url("course-style/qmb5303/08-sampling.png"); 
+			@include grow-style;}
+		.m9 {
+			background-image: url("course-style/qmb5303/09-confidence.png"); 
+			@include grow-style;}
+		.m10 {
+			background-image: url("course-style/qmb5303/10-hypothesis.png"); 
+			@include grow-style;}
+		.m11 {
+			background-image: url("course-style/qmb5303/11-regression.png"); 
+			@include grow-style;}
+		.m12 {
+			background-image: url("course-style/qmb5303/12-multiple.png"); 
+			@include grow-style;}
+		.m15 {
+			background-image: url("course-style/qmb5303/15-anova.png"); 
+			@include grow-style;}
+		.m17 {
+			background-image: url("course-style/qmb5303/17-chi.png"); 
+			@include grow-style;}
+	}
+} //end .context-course_...		
