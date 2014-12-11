@@ -2,10 +2,10 @@
 	background-repeat: no-repeat;
 	background-position: center center;}
 	
-// .context-course_...	{
+.context-course_270283	{
 
 .prof {
-	background-image: url("../_img/prof_img/placeholder.png");
+	background-image: url("course-style/geb5212/mccawley.jpg");
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
@@ -16,18 +16,31 @@
 	position: absolute;}	
 
 .m0 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
+	background-image: url("course-style/geb5212/0-start.png"); 
 	@include grow-style;}
 .m1 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
+	background-image: url("course-style/geb5212/1-active.png"); 
 	@include grow-style;}
 .m2 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
+	background-image: url("course-style/geb5212/2-concision.png"); 
 	@include grow-style;}
 .m3 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
+	background-image: url("course-style/geb5212/3-organizing.png"); 
 	@include grow-style;}
 .m4 {
-	background-image: url("../_img/menu_icons/_default/module.png"); 
+	background-image: url("course-style/geb5212/4-persuading.png"); 
 	@include grow-style;}
-// } end .context-course_...		
+.m5 {
+	background-image: url("course-style/geb5212/5-polishing.png"); 
+	@include grow-style;}
+.m6 {
+	background-image: url("course-style/geb5212/6-relationships.png"); 
+	@include grow-style;}
+.m7 {
+	background-image: url("course-style/geb5212/7-development.png");
+	@include grow-style;}
+.m8 {
+	background-image: url("course-style/geb5212/8-communication.png");
+	@include grow-style;}
+
+} // end .context-course_...		
