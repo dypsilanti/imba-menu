@@ -1,34 +1,13 @@
-@mixin grow-style{
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	&314351 {
-		.prof {
-			background-image: url("course-style/ent6006/morris.png");}	
-		.m0 {
-			background-image: url("course-style/ent6006/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/ent6006/01-dictionary.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/ent6006/02-binoculars.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/ent6006/03-blue.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/ent6006/04-advertising.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/ent6006/05-graph.png"); 
-			@include grow-style;}
-		.m6 {
-			background-image: url("course-style/ent6006/06-dark.png"); 
-			@include grow-style;}
-		.m7 {
-			background-image: url("course-style/ent6006/07-apples.png"); 
-			@include grow-style;}
+		.prof {background-image: url("course-style/ent6006/morris.png");}	
+		.m0 {background-image: url("course-style/ent6006/00-start.png");}
+		.m1 {background-image: url("course-style/ent6006/01-dictionary.png");}
+		.m2 {background-image: url("course-style/ent6006/02-binoculars.png");}
+		.m3 {background-image: url("course-style/ent6006/03-blue.png");}
+		.m4 {background-image: url("course-style/ent6006/04-advertising.png");}
+		.m5 {background-image: url("course-style/ent6006/05-graph.png");}
+		.m6 {background-image: url("course-style/ent6006/06-dark.png");}
+		.m7 {background-image: url("course-style/ent6006/07-apples.png");}
 	}
 } //end .context-course_...		
