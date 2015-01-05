@@ -1,22 +1,11 @@
 .context-course_{
 	/*F14*/ &270279, &304998,
 	/*S15*/ &313879, &314727 {
-		.prof {
-			background-image: url("course-style/fin6626/naranjo.png");}	
-		.m0 {
-			background-image: url("course-style/fin6626/00-start.png"); 
-			}
-		.m1 {
-			background-image: url("course-style/fin6626/01-intro.png"); 
-			}
-		.m2 {
-			background-image: url("course-style/fin6626/02-foundations.png"); 
-			}
-		.m3 {
-			background-image: url("course-style/fin6626/03-international.png"); 
-			}
-		.m4 {
-			background-image: url("course-style/fin6626/04-exposure.png"); 
-			}
+		.prof {background-image: url("course-style/fin6626/naranjo.png");}	
+		.m0 {background-image: url("course-style/fin6626/00-start.png");}
+		.m1 {background-image: url("course-style/fin6626/01-intro.png");}
+		.m2 {background-image: url("course-style/fin6626/02-foundations.png");}
+		.m3 {background-image: url("course-style/fin6626/03-international.png");}
+		.m4 {background-image: url("course-style/fin6626/04-exposure.png");}
 	}
 } // end .context-course
