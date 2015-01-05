@@ -1,25 +1,10 @@
-@mixin grow-style{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
-	&313114,
-	&314066 {
-		.prof {
-			background-image: url("course-style/man5501/vakharia.png");}
-		.m0 {
-			background-image: url("course-style/man5501/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/man5501/01-process.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/man5501/02-supply.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/man5501/03-company.png"); 
-			@include grow-style;
-		}
+	/*S15*/	&313114,
+	/*S15*/ &314066 {
+		.prof {background-image: url("course-style/man5501/vakharia.png");}
+		.m0 {background-image: url("course-style/man5501/00-start.png");}
+		.m1 {background-image: url("course-style/man5501/01-process.png");}
+		.m2 {background-image: url("course-style/man5501/02-supply.png");}
+		.m3 {background-image: url("course-style/man5501/03-company.png");}
 	}
 } // end .context-course_...
