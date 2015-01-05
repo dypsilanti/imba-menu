@@ -1,22 +1,9 @@
-@mixin grow-style{
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_{
 	& {
-		.prof {
-			background-image: url("course-style/abc1000/knechel.png");}	
-		.m0 {
-			background-image: url("course-style/abc1000/0-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/abc1000/1-intro.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/abc1000/2-accountant.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/abc1000/3-badnews.png"); 
-			@include grow-style;}
+		.prof {background-image: url("course-style/abc1000/knechel.png");}	
+		.m0 {background-image: url("course-style/abc1000/0-start.png");}
+		.m1 {background-image: url("course-style/abc1000/1-intro.png");}
+		.m2 {background-image: url("course-style/abc1000/2-accountant.png");}
+		.m3 {background-image: url("course-style/abc1000/3-badnews.png");}
 	}
 } //end .context-course_...		
