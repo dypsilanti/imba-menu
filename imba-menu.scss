@@ -1,29 +1,12 @@
-@mixin grow-style{
-	background-repeat: no-repeat;
-	background-position: center center;}
-	
 .context-course_ {
 	/*F14*/ &270282,
 	/*S15*/ &314729 {
-		.prof {
-			background-image: url("course-style/ecp5705/rush.jpg");}	
-		.m0 {
-			background-image: url("course-style/ecp5705/00-start.png"); 
-			@include grow-style;}
-		.m1 {
-			background-image: url("course-style/ecp5705/01-demand.png"); 
-			@include grow-style;}
-		.m2 {
-			background-image: url("course-style/ecp5705/02-competitive.png"); 
-			@include grow-style;}
-		.m3 {
-			background-image: url("course-style/ecp5705/03-firms.png"); 
-			@include grow-style;}
-		.m4 {
-			background-image: url("course-style/ecp5705/04-game.png"); 
-			@include grow-style;}
-		.m5 {
-			background-image: url("course-style/ecp5705/05-monopoly.png"); 
-			@include grow-style;}
+		.prof {background-image: url("course-style/ecp5705/rush.jpg");}	
+		.m0 {background-image: url("course-style/ecp5705/00-start.png");}
+		.m1 {background-image: url("course-style/ecp5705/01-demand.png");}
+		.m2 {background-image: url("course-style/ecp5705/02-competitive.png");}
+		.m3 {background-image: url("course-style/ecp5705/03-firms.png"); }
+		.m4 {background-image: url("course-style/ecp5705/04-game.png");}
+		.m5 {background-image: url("course-style/ecp5705/05-monopoly.png");}
 	}
 } // end .context-course_
