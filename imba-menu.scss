@@ -1,11 +1,15 @@
 .context-course_{
-	/*S15*/	&313868,
-	/*F15*/	&317348 {
-		.prof {background-image: url("course-style/fin5404/houston.png");}	
-		.m0 {background-image: url("course-style/fin5404/00-start.png");}
-		.m1 {background-image: url("course-style/fin5404/01-management.png");}
-		.m2 {background-image: url("course-style/fin5404/02-valuing.png");}
-		.m3 {background-image: url("course-style/fin5404/03-company.png");}
-		.m4 {background-image: url("course-style/fin5404/04-dividend.png");}
-	}
+	// S15	
+		&313868, 
+	// F15
+		&317348 {
+			.prof {background-image: url("course-style/fin5404/houston.png");}	
+			.m0 {background-image: url("course-style/fin5404/00-start.png");}
+			.m1 {background-image: url("course-style/fin5404/01-management.png");}
+			.m2 {background-image: url("course-style/fin5404/02-valuing.png");}
+			.m3 {background-image: url("course-style/fin5404/03-company.png");}
+			.m4 {background-image: url("course-style/fin5404/04-dividend.png");}
+			.m5 {background-image: url("course-style/fin5404/05-budgeting.png");}
+			.m6 {background-image: url("course-style/fin5404/06-structure.png");}
+		}
 } //end .context-course_...		
