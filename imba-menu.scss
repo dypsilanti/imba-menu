@@ -1,10 +1,13 @@
 .context-course_{
-	/*F15*/ &316435 {
-		.prof {background-image: url("course-style/bul5810-emerson/emerson.png");}	
-		.m0 {background-image: url("course-style/bul5810-emerson/00-start.png");}
-		.m1 {background-image: url("course-style/bul5810-emerson/01-law.png");}
-		.m2 {background-image: url("course-style/bul5810-emerson/02-contracts.png");}
-		.m3 {background-image: url("course-style/bul5810-emerson/03-hired.png");}
-		.m4 {background-image: url("course-style/bul5810-emerson/04-business.png");}
-	}
+	//F15 
+		&316435,
+	//C15 
+		&316436 {
+			.prof {background-image: url("course-style/bul5810-emerson/emerson.png");}	
+			.m0 {background-image: url("course-style/bul5810-emerson/00-start.png");}
+			.m1 {background-image: url("course-style/bul5810-emerson/01-law.png");}
+			.m2 {background-image: url("course-style/bul5810-emerson/02-contracts.png");}
+			.m3 {background-image: url("course-style/bul5810-emerson/03-hired.png");}
+			.m4 {background-image: url("course-style/bul5810-emerson/04-business.png");}
+		}
 } //end .context-course_...		
