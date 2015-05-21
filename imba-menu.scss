@@ -1,12 +1,14 @@
 .context-course_{
-	/*F14*/ &270281,
-	/*S15*/	&314728, &314731 {
-		.prof {background-image: url("course-style/geb5212-barnes/barnes.png");}	
-		.m0 {background-image: url("course-style/geb5212-barnes/00-start.png");}
-		.m1 {background-image: url("course-style/geb5212-barnes/01-active.png");}
-		.m2 {background-image: url("course-style/geb5212-barnes/02-concision.png");}
-		.m3 {background-image: url("course-style/geb5212-barnes/03-organizing.png");}
-		.m4 {background-image: url("course-style/geb5212-barnes/04-persuading.png");}
-		.m5 {background-image: url("course-style/geb5212-barnes/05-polishing.png");}
+	//S15
+		&314728, &314731,
+	//F15 
+		&318603	 {
+			.prof {background-image: url("course-style/geb5212-barnes/barnes.png");}	
+			.m0 {background-image: url("course-style/geb5212-barnes/00-start.png");}
+			.m1 {background-image: url("course-style/geb5212-barnes/01-active.png");}
+			.m2 {background-image: url("course-style/geb5212-barnes/02-concision.png");}
+			.m3 {background-image: url("course-style/geb5212-barnes/03-organizing.png");}
+			.m4 {background-image: url("course-style/geb5212-barnes/04-persuading.png");}
+			.m5 {background-image: url("course-style/geb5212-barnes/05-polishing.png");}
 	}	
 } //  end .context-course_...		
