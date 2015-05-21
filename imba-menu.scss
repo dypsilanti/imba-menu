@@ -1,11 +1,13 @@
 .context-course_{
-	/*S15*/	&312994,
-	/*S15*/	&312995 {
-		.prof {background-image: url("course-style/mar6930/sturdivant.png");}	
-		.m0 {background-image: url("course-style/mar6930/0-start.png");}
-		.m1 {background-image: url("course-style/mar6930/1-knowing.png");}
-		.m2 {background-image: url("course-style/mar6930/2-channel.png");}
-		.m3 {background-image: url("course-style/mar6930/3-sales.png");}
-		.m4 {background-image: url("course-style/mar6930/4-b2b.png");}
-	}
+	//S15
+		&312994, &312995,
+	//F15
+		&318598, &318599 {
+			.prof {background-image: url("course-style/mar6930/sturdivant.png");}	
+			.m0 {background-image: url("course-style/mar6930/0-start.png");}
+			.m1 {background-image: url("course-style/mar6930/1-knowing.png");}
+			.m2 {background-image: url("course-style/mar6930/2-channel.png");}
+			.m3 {background-image: url("course-style/mar6930/3-sales.png");}
+			.m4 {background-image: url("course-style/mar6930/4-b2b.png");}
+		}
 } //end .context-course_...
